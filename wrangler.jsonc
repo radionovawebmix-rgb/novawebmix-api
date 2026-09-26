@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "novawebmix-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-26",
+  "r2_buckets": [
+    {
+      "binding": "MY_BUCKET",
+      "bucket_name": "novawebmix-musicas"
+    }
+  ]
+}
